@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8B51FE;
+}
+
+.logo {
+    height: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+main {
+    background-color: #F4F4F4;
+    width: 375px;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 44px 24px 23px;
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+input,
+select {
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    color: #555555;
+}
+
+button {
+    width: 100%;
+    background-color: #772FD3;
+    color: white;
+    border: 1px solid;
+    border-radius: 6px;
+    height: 48px;
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    padding: 10px 0 10px;
+    margin-top: 10px;
+    height: 276px;
+
+}
+
+div {
+    text-align: center;
+}
+
+.dinheiro {
+    color: #777777;
+    font-size: 14px;
+}
+
+.real,
+.dolar {
+    color: #555555;
+    font-size: 15px;
+}
+
+.bandeira,
+.bandeira-dolar {
+    height: 44px;
+    width: 44px;
+}
+
+.seta {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
